@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "react-scripts build",
-        "keycloak": "yarn build && build-keycloak-theme",
+        "keycloak": "yarn build && yarn keycloakify",
         "start": "react-scripts start",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
@@ -19,10 +19,10 @@
     "license": "MIT",
     "keywords": [],
     "dependencies": {
-        "keycloakify": "^5.4.7",
+        "@emotion/react": "^11.10.4",
+        "keycloakify": "^6.3.6",
         "react": "18.1.0",
         "react-dom": "18.1.0",
-        "@emotion/react": "^11.9.0",
         "tss-react": "^3.7.0"
     },
     "devDependencies": {
